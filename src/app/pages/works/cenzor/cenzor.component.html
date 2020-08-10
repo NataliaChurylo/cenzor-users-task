@@ -1,0 +1,32 @@
+<div class="container">
+    <p class="bad">Bad words: <span class="badWords">{{stringWords}}</span></p>
+    <form>
+      <input type="text" placeholder="Please write a word!" class="form-control" [(ngModel)]="word" name="word" [class.invalid] = 'validInput'>
+      <div class="button-group">
+        <button type="button" class="btn btn-warning size" (click)="addWords()">Add</button>
+        <button type="button" class="btn btn-danger size" (click)="resetArea()">Reset</button>
+      </div>
+      <textarea placeholder="Text here..." class="form-control" [class.invalid] = 'validArea' [(ngModel)]="textValue" name="textValue"></textarea>
+      <button type="button" class="btn btn-success btn-block" (click)="cenzorWords()">Cenzor</button>
+    </form>
+</div>
+
+<!-- <div class="main">
+  <div class="mainText">
+      <div class="badWords">
+          <p>Bad words: &nbsp;</p><p class="bwColor">{{badWords}}</p>
+      </div>
+      <form name="form">
+          <div class="menu">
+              <input [class.invalid]="classValidation" name="text" type="text" placeholder="type here...">
+              <input type="button" name="btnAdd" value="Add" (click)="isInValidClass()">
+              <input type="button" name="btnReset" value="Reset" (click)="clearTextArea()">
+          </div>
+          <div class="textArea">
+              <textarea  [class.invalid]="cenzorValidation" name="textarea" placeholder="type here..."></textarea>
+          </div>
+          <input type="button" name="btnCenzor" value="Cenzor" (click)="isInValidCenzor()">
+      </form>
+  </div>
+</div> -->
+  

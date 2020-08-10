@@ -1,0 +1,13 @@
+.container{
+    margin-top: 50px;
+}
+.task-add{
+    display: flex;
+    justify-content: space-between;
+    .input-name{
+        width: 75%;
+    }
+    .add{
+        width: 25%;
+    }
+}

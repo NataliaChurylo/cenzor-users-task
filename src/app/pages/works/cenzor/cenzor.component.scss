@@ -1,0 +1,44 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    width: 600px;
+    min-height: 300px;
+    padding: 0 15px;
+}
+
+.bad{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.button-group{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size{
+    width: 200px;
+    margin: 0 10px;
+}
+
+textarea{
+    margin: 10px 0;
+    min-height: 70px;
+    width: 570px;
+    border-radius: 5px;
+}
+
+.badWords{
+    color: rgb(207, 0, 0);
+}
+
+.invalid{
+    border-color: red;
+}

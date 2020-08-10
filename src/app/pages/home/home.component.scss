@@ -1,0 +1,9 @@
+.row{
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h6{
+        text-align: center;
+    }
+}

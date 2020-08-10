@@ -1,0 +1,19 @@
+<ul class="nav nav-tabs mt-2">
+    <li class="nav-item">
+        <a class="nav-link disabled"> Last works >>> </a>
+    </li>
+    <li class="nav-item">
+        <a [routerLink]="[ '/works/cenzor' ]" routerLinkActive="active text-success" class="nav-link"> Cenzor </a>
+    </li>
+    <li class="nav-item">
+        <a [routerLink]="[ '/works/users-list' ]" routerLinkActive="active text-success" class="nav-link"> Users </a>
+    </li>
+    <li class="nav-item">
+        <a [routerLink]="[ '/works/task-list' ]" routerLinkActive="active text-success" class="nav-link"> Task </a>
+    </li>
+    <li class="nav-item">
+        <a [routerLink]="[ '/home' ]" routerLinkActive="active" class="nav-link text-danger"> Back to >>> Home</a>
+    </li>
+</ul>
+
+  <router-outlet></router-outlet>
